@@ -1,0 +1,13 @@
+/* Author: Madhur Gupta
+   Github: github.com/guptamadhur
+   Project: Hacker Rank 10 Days of Javascript
+*/
+
+function regexVar() {
+    /*
+     * Declare a RegExp object variable named 're'
+     * It must match a string that starts and ends with the same vowel (i.e., {a, e, i, o, u})
+     */
+    const re = /^(a|e|i|o|u)\w*\1$/;
+    return re;
+}
